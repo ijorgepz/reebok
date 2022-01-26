@@ -1,0 +1,316 @@
+/* ==========================================================================
+   Powered by JLuisPz =)
+   ========================================================================== */
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-20";
+  src:url("../fonts/untitled-font-20.eot");
+  src:url("../fonts/untitled-font-20.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/untitled-font-20.woff") format("woff"),
+    url("../fonts/untitled-font-20.ttf") format("truetype"),
+    url("../fonts/untitled-font-20.svg#untitled-font-20") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'q_stencilregular';
+    src: url('../fonts/q_stencil-webfont.eot');
+    src: url('../fonts/q_stencil-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/q_stencil-webfont.woff2') format('woff2'),
+         url('../fonts/q_stencil-webfont.woff') format('woff'),
+         url('../fonts/q_stencil-webfont.ttf') format('truetype'),
+         url('../fonts/q_stencil-webfont.svg#q_stencilregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Conv_DINOT-Cond';
+	src: url('../fonts/DINOT-Cond.eot');
+	src: local('☺'), url('../fonts/DINOT-Cond.woff') format('woff'),
+	url('../fonts/DINOT-Cond.ttf') format('truetype'),
+	 url('../fonts/DINOT-Cond.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_DINOT-CondMedium';
+	src: url('../fonts/DINOT-CondMedium.eot');
+	src: local('☺'), url('../fonts/DINOT-CondMedium.woff') format('woff'), url('../fonts/DINOT-CondMedium.ttf') format('truetype'), url('../fonts/DINOT-CondMedium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_DINOT-Light';
+	src: url('../fonts/DINOT-Light.eot');
+	src: local('☺'), url('../fonts/DINOT-Light.woff') format('woff'), url('../fonts/DINOT-Light.ttf') format('truetype'), url('../fonts/DINOT-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+[data-icon]:before {
+  font-family: "untitled-font-20" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-20" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rutinas:before {
+  content: "f";
+}
+.icon-facebook:before {
+  content: "g";
+}
+.icon-flecha:before {
+  content: "i";
+}
+.icon-cerrar:before {
+  content: "j";
+}
+.icon-clases:before {
+  content: "k";
+}
+.icon-google-plus:before {
+  content: "l";
+}
+.icon-instagram:before {
+  content: "m";
+}
+.icon-logout:before {
+  content: "n";
+}
+.icon-pinterest:before {
+  content: "o";
+}
+.icon-productos:before {
+  content: "p";
+}
+.icon-registro:before {
+  content: "q";
+}
+.icon-twitter:before {
+  content: "r";
+}
+
+
+/* Fuentes Generales*/
+*{padding: 0; margin: 0;}
+.t1{font-family: 'q_stencilregular';}
+.t2{font-family: 'Conv_DINOT-Cond';}
+.t3{font-family: 'Conv_DINOT-CondMedium';}
+.t4{font-family: 'Conv_DINOT-Light'; letter-spacing: 1px;}
+.yellow{color: #ece819;}
+.red{color: #aa1e31;}
+.black{color: #000000;}
+.white{color: #ffffff;}
+.gray{color: #3f3f3d}
+.button{width: 100%;max-width: 240px;min-height: 33px;display: block;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;font-family: Arial;padding: 7px 10px;margin: 0;background-image: url(../img/button-go.png);background-position: 96% center;background-repeat: no-repeat;border: none;}
+.bgRed{background-color: #aa1e31;}
+.bgGray{background-color: #8d827a;}
+.bgBlack{background-color: #000000;}
+.bgWhite{background-color: #ffffff;}
+.clear{clear: both;}
+.tittle{font-size: 36px;}
+.subtittle{font-size: 30px;}
+.paragraph{font-size: 15px;}
+
+
+
+
+
+.container{max-width: 1200px; width: 100%; margin: auto; padding: 0}
+.fold{min-height: 708px; background-image: url(../img/bg_slider_home.jpg); background-position: top center; background-repeat: repeat-x; position: relative;}
+.fold .boxFold{max-width: 285px; width: 95%; margin: 0 auto 0 auto; float: right; vertical-align: top; color: #ffffff; background-image: url(../img/bg_box_fold.png); background-repeat: repeat}
+.fold .boxFold .topBox{display: block; float: none; margin: 15px}
+.fold .boxFold .topBox h1{font-size: 24px;font-family: 'Conv_DINOT-Cond'; font-weight: bold; margin:0 0 0 0; padding: 0 0 0 0}
+.fold .boxFold .topBox h2{font-size: 16px; font-family: 'Conv_DINOT-Cond'; margin:0 0 0 0; padding: 0 0 0 0}
+.fold .boxFold .topBox .separator{position: relative; margin:20px auto 0 auto; background-image: url(../img/separator_box_fold.png); background-repeat: no-repeat; width: 100%; height: 15px;}
+.fold .boxFold .topBox .loginSocial{height: 50px; padding: 0 0 0 7px}
+.fold .boxFold .topBox .loginSocial .txt{display: inline-block; *display: inline; zoom:1; width: 155px; font-size: 16px;font-family: 'Conv_DINOT-Cond'; font-weight: bold; margin-right: 5px; vertical-align: middle;}
+.fold .boxFold .topBox .loginSocial .logos{vertical-align: top; display: inline-block; *display: inline; zoom:1;}
+.fold .boxFold .topBox .loginSocial .logos div{display: inline-block; *display: inline; zoom:1;}
+.fold .boxFold .topBox .loginSocial .logos a.fb{font-size: 38px; color: #ffffff; vertical-align: top; display: inline-block; *display: inline; zoom:1;}
+.fold .boxFold .topBox .loginSocial .logos a.gl{font-size: 38px; color: #ffffff; vertical-align: top; display: inline-block; *display: inline; zoom:1;}
+.fold .boxFold .bottomBox{display: none; float: none; background-image: url(../img/bg_box_fold_date.png); background-repeat: repeat; padding: 15px}
+.fold .boxFold .bottomBox h1{font-size: 24px;font-family: 'Conv_DINOT-Cond'; font-weight: bold; margin:0 0 0 0; padding: 0 0 0 0}
+.fold .boxFold .bottomBox h1 span.icon{font-size: 34px}
+.fold .boxFold .bottomBox h1 span{vertical-align: top}
+.fold .copy{position: absolute; bottom: 100px; width: 55%}
+.fold .copy h1{font-family: 'q_stencilregular';}
+.fold .copy h2{color: #ece819;font-family: 'Conv_DINOT-Cond';}
+.fold .copy p{color: #ffffff;font-family: 'Conv_DINOT-Light'; font-size: 15px;}
+.fold .separatorFold{background-image: url(../img/opacity75.png); background-repeat: repeat; width: 100%; height: 25px; z-index: 1; position: absolute; bottom: 0}
+.fold .logo{margin-top: 31px; margin-left: 60px}
+.logo a{background-image: url(../img/logo_reebok.png); background-position: top center; background-repeat: no-repeat; width: 146px; height: 31px; display: block; text-indent: -999em}
+.copy{max-width: 600px; width: 50%; color: #ffffff; padding-left: 60px;}
+.menu{background-color: transparent; background-image: none; position: relative; top: 0; z-index: 999;-webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; -ms-user-select:none;}
+.iconMenu{background-image: url(../img/circle_menu.png); background-repeat: no-repeat; width: 40px; height: 40px; font-size: 26px; padding: 5px 0 0 0 !important; text-align: center; color: #ffffff; float: left;}
+.labelMenu{background-image: url(../img/bg_menu.png); width: 159px; height: 29px; color: #ffffff; float: left;}
+.menu ul.nav{position: fixed; top: 0; margin-left: -50px; margin-top: 150px }
+.menu ul.nav li a {z-index: 9999}
+.menu ul.nav li a:hover,.menu ul.nav li.active a{background-color: transparent; color: #ffffff; background-image: url(../img/circle_menu_hover.png); }
+.menu ul.nav li a + a {margin-left: -10px; margin-top: 6px; padding: 5px 0 0 15px; z-index: 9;display: none;}
+.menu ul.nav li a + a:hover,.menu ul.nav li.active a + a{background-color: transparent; color: #ffffff; background-image: url(../img/bg_menu.png);  }
+.menu ul.nav li{display: block;width: 42px;height: 42px; margin-bottom: 10px}
+.btnRed,.btnGray{margin: 10px 0 0 0; padding: 0 0 0 7px}
+.btnRed a,.loginButton{background-color: #aa1e31; width: 100%; max-width: 240px; min-height: 33px; display: block; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; color: #fff; font-family: Arial; padding: 7px 10px; margin: 0; background-image: url(../img/button-go.png); background-position: 96% center; background-repeat: no-repeat; border: none }
+.btnGray a{background-color: #8d827a; width: 100%; max-width: 240px; min-height: 33px; display: block; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; color: #fff; font-family: Arial; padding: 7px 10px; margin: 0; background-image: url(../img/button-go.png); background-position: 96% center; background-repeat: no-repeat; }
+.forgotPassword a{color: #aa1e31;font-family: 'Conv_DINOT-Light'; font-size: 13px; text-align: left;}
+.box .city{width: 30%;font-family: 'Conv_DINOT-Cond'; font-weight: bold; font-size: 15px; display: inline-block; *display: inline; zoom:1;}
+.box .fecha{width: 62%;font-family: 'Conv_DINOT-Light'; font-size: 12px; text-align: right; display: inline-block; *display: inline; zoom:1;}
+.bottomBox .box{padding: 0 0 0 7px}
+.loginOne{display: none}
+.loginGeneral{display: none;}
+.forgetPass{position: relative; display: none;}
+.alertas{position: relative;}
+.close{opacity: 1; position: absolute; top: 0px; right: 10px}
+.close a{display: block; background-image: url(../img/close.png); width: 19px; height: 19px; opacity: 1; }
+
+.loginReebok input{background-color: transparent; background-image: url(../img/opacity20.png); background-repeat: repeat; border: 0;-webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; display: block; width: 100%; max-width: 240px; min-height: 28px;font-family: 'Conv_DINOT-Light'; font-size: 13px; outline: none; margin: 5px auto; padding: 0 10px;}
+.loginReebok label{display: block;font-family: 'Conv_DINOT-Light'; font-size: 12px; text-align: left;}
+.loginReebok label.error{font-family: 'Conv_DINOT-Cond'; font-size: 13px; text-align: left; color: #aa1e31;margin: -6px 0 0 15px;}
+.loginReebok input.loginButton{background-color: #aa1e31; width: 100%; max-width: 240px; min-height: 33px; display: block; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; color: #fff; font-family: Arial; padding: 7px 10px; margin: 0; background-image: url(../img/button-go.png); background-position: 96% center; background-repeat: no-repeat; border: none; margin: 10px auto; text-align: left; }
+
+.alertas .topBox{margin: 15px;}
+.alertas .topBox h1{font-size: 24px;font-family: 'Conv_DINOT-Cond'; font-weight: bold; margin:0 0 0 0; padding: 0 0 0 0}
+.alertas .topBox .message{font-size: 14px; font-family: 'Conv_DINOT-Light'; margin:5px 5px 25px 5px; padding: 0 0 0 0; line-height: normal;}
+
+
+/*Sections*/
+.section{background-color: #f1f1f1; padding-bottom: 50px}
+.productPrincipal,.products{float: left; width: 50%; position: relative;}
+.productPrincipal .details{position: absolute;top: 0; left: 0; max-width: 411px; margin: 5% auto; width: 70%; padding-left: 60px }
+.moreProducts{max-width: 196px; max-height: 46px; border: 1px solid #ffffff; line-height: 46px; display: block; text-align: center; font-size: 16px; margin: 25px 0 0 0}
+.productPrincipal img,.products img{width: 100%; height: auto}
+.infoPrice{width: 100%; height: auto; position: relative;}
+.infoPrice img{width: 100%; height: auto;}
+.detailPrice{position: absolute; top: 0; left: 0; width: 100%}
+.detailPrice.principal{  left: 15%; width: 85%}
+
+.detailPrice .nameProduct{float: left;  margin-left: 3%; width: 58%; font-size: 24px}
+.detailPrice .priceProduct{float: right;  margin-right: 3%; width: 36%; text-align: right; font-size: 24px}
+.detailPrice .priceProduct span{vertical-align: sub;}
+
+
+.section2{background-image: url(../img/bg_section.jpg); padding: 90px 0}
+.copyVideo{display: inline-block; *display: inline; zoom:1; vertical-align: middle; width: 27%; max-width: 300px; margin: 0 10%}
+.videoBox{display: inline-block; *display: inline; zoom:1; vertical-align: middle; width: 51%}
+.videoBox { position: relative; padding-bottom: 25.3%; padding-top: 30px; height: 0; overflow: hidden; }
+.videoBox iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+.footer{background-color: #282827}
+.legales{background-color: #3f3f3d}
+
+.barWhite .container{margin: 20px auto}
+.barWhite .titulo{padding-left: 60px; font-size: 36px; font-weight: bold; line-height: normal;}
+.barWhite .subtitulo{padding-left: 60px; font-size: 20px; line-height: normal;}
+
+.header{background-color: #282827; padding: 30px 0}
+.formulario{background-image: url(../img/bg_formulario.jpg); background-repeat: no-repeat;}
+.formulario form{margin: 30px auto; padding-left: 60px}
+.formulario form label{display: block; font-size: 18px; margin: 0; padding: 0}
+.formulario form input[type="text"],.formulario form input[type="password"]{display: block; max-width: 310px; width: 95%; margin: auto 0; background-color: #c1c1c1; border: 0; border-radius: 5px; height: 30px; padding: 0 10px; color: #3f3f3d;display: block;font-family: 'Conv_DINOT-Light'; font-size: 16px; text-align: left; outline: none}
+.formulario form select{display: block; max-width: 310px; width: 95%; margin: auto 0; background-color: #c1c1c1; border: 0; border-radius: 5px; height: 30px;}
+.formulario form select.dia{width: 30%; max-width: 100px; display: inline-block;}
+.formulario form select.mes{width: 30%; max-width: 100px; display: inline-block;}
+.formulario form select.anio{width: 30%; max-width: 100px; display: inline-block;}
+.formulario form input[type="submit"]{text-align: left;}
+.formulario form input[type="checkbox"]{width: 20px; height: 20px; vertical-align: sub;}
+.formulario form div{font-size: 16px; width: 90%; max-width: 300px; line-height: normal; margin: 10px 0}
+
+.rutinas{background-color: #f1f1f1; padding: 30px 0}
+.rutinas .container{display: table; text-align: center; }
+.rutinas .box{display: inline-table; width: 30%; background-color: #ffffff; margin: 20px 1%; min-width: 200px; min-height: 780px}
+.contentDetail{width: 85%; margin: 15px auto}
+.rutinas .box img{width: 100%; height: auto}
+.contentDetail h2{font-size: 24px;font-family: 'Conv_DINOT-Cond'; text-align: left; padding: 0; margin: 0}
+.contentDetail h3{text-align: left; font-size: 24px; padding: 0; margin: 0}
+.contentDetail p{font-size: 14px;font-family: 'Conv_DINOT-Light'; text-align: left;}
+
+
+.productos{background-color: #f1f1f1; padding: 30px 0}
+.productos .container{display: table; text-align: center; }
+.productos .box{display: inline-table; width: 30%; background-color: #ffffff; margin: 10px 1%; min-width: 200px; min-height: 406px; vertical-align: top}
+.productos .box img{min-height: 230px}
+
+
+.galeria{background-image: url(../img/bg_section.jpg); padding: 90px 0}
+.videoGallery{padding-left: 60px;}
+.videoGallery .contentVideo{vertical-align: middle;}
+.videoGallery .videoPreview{display: inline-block; width: 37%; vertical-align: middle; text-align: right}
+
+
+.contentVideo{display: inline-block; *display: inline; zoom:1; vertical-align: middle; width: 62%}
+.contentVideo { position: relative; padding-bottom: 32.3%; padding-top: 30px; height: 0; overflow: hidden; }
+.contentVideo iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.videoThumbail{margin: 15px auto}
+.videoThumbail img{width: 100%; max-width: 315px}
+
+@media(max-width: 1285px){
+	.menu ul.nav{margin-left: 5px; }
+}
+
+@media(max-width: 800px){
+	.menu ul.nav{display: none; }
+	.fold .copy{max-width: 600px; width: 94%; color: #ffffff; padding-left: 0px; margin: 140px 3% 0 3%; position: relative;}
+  .fold .boxFold{position: relative; margin: 10px auto; width: 94%; float: none; padding-top: 15px; padding-bottom: 15px;}
+  .section .products{ display: none}
+  .section .productPrincipal{float: none; width: 80%; margin: auto 10%}
+  .copyVideo{display: block; vertical-align: middle; width: 90%; max-width: 700px; margin: 0 5%}
+  .videoBox{display: block; vertical-align: middle; width: 90%; margin: 30px auto}
+  .videoBox { position: relative; padding-bottom: 46.3%; padding-top: 30px; height: 0; overflow: hidden; }
+  .videoBox iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+  .logo{margin-left: 3%}
+  .videoGallery .contentVideo{display: block; width: 90%; margin: 10px 5%}
+  .videoGallery .videoPreview{display: block; width: 90%; margin: 10px 5%}
+  .videoGallery .videoPreview .videoThumbail{margin: 15px auto; text-align: center; }
+  .videoGallery .videoPreview .videoThumbail img{width: 100%; max-width: 315px}
+  .videoGallery{padding: 10px 0}
+
+}
+@media(max-width: 530px){
+  .section .productPrincipal h1{font-size: 28px}
+  .section .productPrincipal h2{font-size: 20px}
+  .section .productPrincipal p{font-size: 13px}
+  .detailPrice .nameProduct{width: 30%}
+  .detailPrice .priceProduct{width: 45%}
+  .productPrincipal .details{width: 90%; margin: 10px 5%; padding: 0}
+  .moreProducts{font-size: 12px}
+}
+
+
+
+
